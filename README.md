@@ -1,1 +1,3 @@
 # dubbo_learn_Demo
+dubbo框架学习，
+对在springboot学习的项目进行dubbo框架的应用

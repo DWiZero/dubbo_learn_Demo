@@ -1,9 +1,12 @@
 package com.DWiZero.GlobleBean;
 
-public class ResponseEntry<T>
+import java.io.Serializable;
+
+public class ResponseEntry<T> implements Serializable
 {
-    private Integer code;
-    private String message;
+    private static final long serialVersionUID = -2098954909611373376L;
+    private Integer code = 200;
+    private String message ="success";
     private T data;
 
     public Integer getCode()

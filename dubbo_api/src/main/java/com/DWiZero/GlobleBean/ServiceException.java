@@ -1,7 +1,11 @@
 package com.DWiZero.GlobleBean;
 
-public class ServiceException extends RuntimeException
+import java.io.Serializable;
+
+public class ServiceException extends RuntimeException implements Serializable
 {
+    private static final long serialVersionUID = -74749435392649424L;
+
     public ServiceException(String msg, Integer code)
     {
         this.code = code;

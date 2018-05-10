@@ -20,7 +20,7 @@ import java.util.List;
 
 //知识点：@Bean,@configuration
 //无@configuration，@Bean spring无法获取
-@Configuration
+//@Configuration
 public class MessageConvertersConfig extends WebMvcConfigurerAdapter
 {
     public MessageConvertersConfig()

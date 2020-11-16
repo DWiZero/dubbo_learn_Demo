@@ -1,6 +1,6 @@
 package com.DWiZero.Mapper;
 
-import com.DWiZero.VO.userInfo;
+import com.DWiZero.VO.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -9,13 +9,13 @@ public interface userInfoMapper
 {
     int deleteByPrimaryKey(Integer userId);
 
-    int insert(userInfo record);
+    int insert(UserInfo record);
 
-    int insertSelective(userInfo record);
+    int insertSelective(UserInfo record);
 
-    userInfo selectByPrimaryKey(@Param("userId") Integer userId);
+    UserInfo selectByPrimaryKey(@Param("userId") Integer userId);
 
-    int updateByPrimaryKeySelective(userInfo record);
+    int updateByPrimaryKeySelective(UserInfo record);
 
-    int updateByPrimaryKey(userInfo record);
+    int updateByPrimaryKey(UserInfo record);
 }

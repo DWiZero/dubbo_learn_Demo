@@ -1,7 +1,7 @@
 package com.DWiZero.Rest;
 
 import com.DWiZero.GlobleBean.ResponseEntry;
-import com.DWiZero.user.userService;
+import com.DWiZero.user.UserService;
 import com.alibaba.dubbo.config.annotation.Reference;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DoTest
 {
     @Reference(timeout = 300)
-    private userService userService;
+    private UserService userService;
 
     @ApiOperation("/getUserCacheTest")
     @RequestMapping(value = "/getUserCacheTest", method = RequestMethod.GET)

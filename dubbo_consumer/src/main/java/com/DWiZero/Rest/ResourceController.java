@@ -1,7 +1,7 @@
 package com.DWiZero.Rest;
 
-import com.DWiZero.resources.ResourceService;
-import com.alibaba.dubbo.config.annotation.Reference;
+import com.DWiZero.Resources.ResourceService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

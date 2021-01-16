@@ -1,4 +1,4 @@
-package com.DWiZero.user;
+package com.DWiZero.User;
 
 import com.DWiZero.VO.UserInfo;
 

@@ -25,7 +25,7 @@ import java.lang.reflect.Method;
  */
 @Aspect
 //@Component
-public class serviceLog
+public class ServiceLog
 {
     private Logger logger = Logger.getLogger(getClass());
     ThreadLocal<Long> startTime = new ThreadLocal<Long>();

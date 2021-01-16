@@ -1,8 +1,8 @@
 package com.DWiZero.Rest;
 
 import com.DWiZero.GlobleBean.ResponseEntry;
-import com.DWiZero.user.UserService;
-import com.alibaba.dubbo.config.annotation.Reference;
+import com.DWiZero.User.UserService;
+import org.apache.dubbo.config.annotation.Reference;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

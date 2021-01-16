@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 @Aspect
 //@Component
-public class controllerLog
+public class ControllerLog
 {
     private Logger logger = Logger.getLogger(getClass());
 

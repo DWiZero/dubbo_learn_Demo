@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 @Mapper
-public interface userInfoMapper
+public interface UserInfoMapper
 {
     int deleteByPrimaryKey(Integer userId);
 

@@ -1,4 +1,4 @@
-package com.DWiZero.resources;
+package com.DWiZero.Resources;
 
 import java.io.IOException;
 

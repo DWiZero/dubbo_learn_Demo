@@ -1,8 +1,8 @@
 package com.DWiZero.Services.Resources;
 
 import com.DWiZero.Config.PropertyLoad;
-import com.DWiZero.resources.ResourceService;
-import com.alibaba.dubbo.config.annotation.Service;
+import com.DWiZero.Resources.ResourceService;
+import org.apache.dubbo.config.annotation.Service;
 import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
